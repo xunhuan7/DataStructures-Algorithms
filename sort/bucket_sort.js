@@ -46,5 +46,6 @@ function sortDecrease(get_array) {
     }
 }
 
+//分别调用升序和降序函数
 sortIncrease([13, 24, 32, 5, 41, 0, 13]);
 sortDecrease([13, 24, 32, 5, 41, 0, 13]);
