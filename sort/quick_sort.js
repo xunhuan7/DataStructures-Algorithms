@@ -28,8 +28,7 @@ function quickSort(get_array) {
         }
     }
 
-    //递归对左右两个数组进行排序，直到数组长度为<=1；
+    //递归对左右两个数组进行，直到数组长度为<=1；
     return quickSort(left).concat(tempValue, quickSort(right));
 };
-
 console.log(quickSort([4, 42, 1, 3, 19, 27]));
