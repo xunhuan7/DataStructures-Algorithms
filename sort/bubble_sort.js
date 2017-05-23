@@ -5,6 +5,7 @@
 
 //升序冒泡函数
 function sortIncrease(get_array) {
+    "use strict";
     var len = get_array.length;
     for (let m = 1; m < len; m++) {
         for (let n = 0; n < len-m; n++) {
@@ -22,6 +23,7 @@ function sortIncrease(get_array) {
 
 //降序冒泡函数
 function sortDecrease(get_array) {
+    "use strict";
     var len = get_array.length;
     for (let m = 1; m < len-m; m++) {
         for (let n = 0; n < len; n++) {
@@ -39,6 +41,7 @@ function sortDecrease(get_array) {
 
 //对象升序冒泡
 function sortIncreaseObj(get_obj) {
+    "use strict";
     var len = get_obj.length;
     for (let m = 1; m < len; m++) {
         for (let n = 0; n < len-m; n++) {
@@ -56,6 +59,7 @@ function sortIncreaseObj(get_obj) {
 
 //降序冒泡排序
 function sortIncreaseObj(get_obj) {
+    "use strict";
     var len = get_obj.length;
     for (let m = 1; m < len; m++) {
         for (let n = 0; n < len-m; n++) {
@@ -73,6 +77,7 @@ function sortIncreaseObj(get_obj) {
 
 //降序冒泡函数
 function sortDecreaseObj(get_obj) {
+    "use strict";
     var len = get_obj.length;
     for (let m = 1; m < len; m++) {
         for (let n = 0; n < len -m; n++) {
