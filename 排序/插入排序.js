@@ -10,7 +10,6 @@ function sort(arr) {
             var guard = arr[i];
             //  记录有序序列最后一个元素的位置
             var j = i - 1;
-            arr[i] = arr[j];
             //  获取插入位置
             while (j >= 0 && guard < arr[j]) {
                 arr[j + 1] = arr[j];
@@ -23,4 +22,4 @@ function sort(arr) {
     return arr;
 }
 
-console.log(sort([8, 5, 4, 6, 2, 1, 15, 3]));
+console.log(sort([8, 5, 4, 6, 2, 1, 15, 3, 95, 86]));
