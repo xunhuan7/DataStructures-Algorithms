@@ -15,7 +15,7 @@ function Queue() {
         return items[0];
     };
     this.isEmpty = function () {
-        return (items.length === 0)
+        return (items.length === 0);
     };
     this.clear = function () {
         items = [];
@@ -62,6 +62,7 @@ var apply = {
             }
         };
     },
+
     // 2、击鼓传花
     hotPotato: function (nameList, num) {
         var queue = new Queue();

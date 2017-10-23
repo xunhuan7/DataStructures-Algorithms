@@ -91,9 +91,9 @@ var apply = {
         // 栈为空说明括号平衡
         if (bracket_stack.isEmpty()) {
             return true;
-        } else {
-            return false;
         }
+        return false;
+
     },
 
     // 3、后缀表达式求值
