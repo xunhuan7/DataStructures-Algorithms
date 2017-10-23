@@ -64,7 +64,7 @@ var apply = {
     },
 
     // 2、击鼓传花
-    hotPotato: function (nameList, num) {
+    hot: function (nameList, num) {
         var queue = new Queue();
         for (var i = 0; i < nameList.length; i++) {
             queue.enqueue(nameList[i]);
