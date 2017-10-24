@@ -69,6 +69,7 @@ var apply = {
         for (var i = 0; i < nameList.length; i++) {
             queue.enqueue(nameList[i]);
         }
+        // 保存淘汰者
         var eliminated = "";
         while (queue.size() > 1) {
             for (var j = 0; j < num; j++) {
